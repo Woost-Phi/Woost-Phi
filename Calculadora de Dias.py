@@ -52,10 +52,10 @@ else: DF2 != 4 or 6 and 10 or 11
       
 
 DF3= DF1 + DF2 
-#Meses = {1 : 'janeiro', 2 : 'Fevereiro', 3: 'Março', 4: 'Abril', 5}
+#Meses = {1 : 'janeiro', 2 : 'Fevereiro', 3: 'Março', 4: 'Abril', 5} (Não consigui integrar isso aqui :/)
 DFA = D6 - D3
 DFA2= DFA * 365 + DF3
 
-print ('Do dia' {} 'do' {} 'do ano' {} 'ao dia' {} 'do' {} 'ao ano' {} 'tem' {} 'dias'.format(D1, D2, D3, D4, D5, D6, DFA2))
+print ('Do dia' {} 'do' {} 'do ano' {} 'ao dia' {} 'do' {} 'ao ano' {} 'tem' {} 'dias'.format (D1, D2, D3, D4, D5, D6, DFA2))
 
 
