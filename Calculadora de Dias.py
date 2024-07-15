@@ -39,7 +39,23 @@ if D1 == 4 or 6 and 10 or 11:
         DF1 = 31 - D1 
 else: DF1 != 4 or 6 and 10 or 11
       
+if D4 == 1 or 3 and 5 or 7 and 8 or 9:   
+        DF1 = 31 - D1 
+else: DF2 = 2 or 4 and 6 or 10 and 11
 
-DF2= DF1 +  
+if D4== 2:
+        DF2= 28 - D1
+else: D1 != 2
+if D1 == 4 or 6 and 10 or 11:   
+        DF2 = 31 - D1 
+else: DF2 != 4 or 6 and 10 or 11
+      
+
+DF3= DF1 + DF2 
+#Meses = {1 : 'janeiro', 2 : 'Fevereiro', 3: 'Março', 4: 'Abril', 5}
+DFA = D6 - D3
+DFA2= DFA * 365 + DF3
+
+print ('Do dia' {} 'do' {} 'do ano' {} 'ao dia' {} 'do' {} 'ao ano' {} 'tem' {} 'dias'.format(D1, D2, D3, D4, D5, D6, DFA2))
 
 
