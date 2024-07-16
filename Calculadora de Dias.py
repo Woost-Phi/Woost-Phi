@@ -1,6 +1,6 @@
 D1= int(input('Digite o dia do MÊS que iniciará a contagem: '))
 if D1>31:
-        print('Data incorreta)')
+        print('Data incorreta:')
         
 else:
             D1<=31
@@ -56,6 +56,6 @@ DF3= DF1 + DF2
 DFA = D6 - D3
 DFA2= DFA * 365 + DF3
 
-print ('Do dia' {} 'do' {} 'do ano' {} 'ao dia' {} 'do' {} 'ao ano' {} 'tem' {} 'dias'.format (D1, D2, D3, D4, D5, D6, DFA2))
+print (" Do dia {} do {} do ano {} ao dia {} do {} ao ano {} tem {} dias".format(D1, D2, D3, D4, D5, D6, DFA2))
 
 
